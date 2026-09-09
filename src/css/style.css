@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #ddd;
+}
+
+.container {
+  width: 90%;
+  border: 1px solid #ddd;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.collaps-btn {
+  background-color: #0d6efd;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.collaps-btn:hover {
+  background-color: #0b5ed7;
+}
+
+.collaps-btn:focus {
+  box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.5)
+}
+
+.collapsible-text {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.collapsible-text.open {
+  max-height: 500px;
+}
+
+.text-inner {
+  margin-top: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  color: #333;
+}
+
+.copy-btn {
+  display: block;
+  margin-left: auto;
+  padding: 8px 16px;
+  color:#6b778c;
+  border: none;
+  cursor: pointer;
+  background-color: #ddd;
+}
