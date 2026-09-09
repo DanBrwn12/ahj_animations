@@ -19,7 +19,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-        cache-dependency-path: chat/frontend/package-lock.json
+        cache-dependency-path: ./package-lock.json
     - run: npm ci
     - run: npm run build
     - uses: actions/upload-pages-artifact@v3
